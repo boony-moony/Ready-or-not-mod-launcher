@@ -302,16 +302,4 @@ sudo pacman -S p7zip unrar
 
 **Fix**: Never use the in-game mod menu on Linux. Use this manager instead!
 
-## Keyboard Shortcuts (Coming Soon)
-
-| Action | Key |
-|--------|-----|
-| Create Instance | Ctrl+N |
-| Add Mod | Ctrl+O |
-| Enable Instance | Ctrl+E |
-| Launch Game | Ctrl+L |
-
-## License
-
-MIT
 >>>>>>> f5f74b0 (ron_modlauncher)
