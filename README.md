@@ -176,23 +176,47 @@ When you activate "PvP" instance:
 
 ## Installation
 
-### Requirements
+### Option 1: Download Pre-Built App (Easiest)
 
+**Coming Soon**: Pre-built executable in [Releases](https://github.com/boony-moony/Ready-or-not-mod-launcher/releases)
+
+1. Download `ron-modmgr` from the latest release
+2. Make it executable: `chmod +x ron-modmgr`
+3. Run it: `./ron-modmgr`
+
+### Option 2: Run from Source
+
+**Requirements:**
 - Python 3.11+
 - PySide6 (Qt GUI framework)
-- Linux (tested on Arch)
+- Linux (tested on Arch, Ubuntu, Fedora)
 - Ready or Not installed via Steam (native or Flatpak)
 
-### Quick Start
+**Steps:**
 
 ```bash
-cd /home/mrboony/Desktop/host
+# Clone the repository
+git clone https://github.com/boony-moony/Ready-or-not-mod-launcher.git
+cd Ready-or-not-mod-launcher
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the app
 python3 main.py
 ```
 
-Or use the launch script:
+### Option 3: Install to System (Advanced)
+
 ```bash
+# Copy executable to system path
+sudo cp ron-modmgr /usr/local/bin/
+
+# Install desktop entry (shows in app menu)
+cp ron-modmgr.desktop ~/.local/share/applications/
+
+# Launch from app menu or terminal: ron-modmgr
+```
 ./run.sh
 ```
 
