@@ -1,3 +1,5 @@
+MIGHT BE OUTDATED
+
 # Ready or Not Mod Manager
 
 > **Platform Note**: This mod manager is **optimized for Arch Linux**, but works on **any Linux distro** (Ubuntu, Debian, Fedora, openSUSE, etc.). It does **not** support Windows or macOS.
